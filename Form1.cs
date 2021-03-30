@@ -12,6 +12,10 @@ namespace Calculadora
 {
     public partial class Form1 : Form
     {
+        double value = 0;
+        string operation = "";
+        bool operation_press = false;
+
         // Atributos / variáveis globais: 
 
         public Form1()
@@ -20,6 +24,11 @@ namespace Calculadora
         }
         private void numero_Click(object sender, EventArgs e)
         {
+
+            if(txbTela.Text == operation_press)
+              txbTela.Clear();
+            
+              
             // Identificar o elemento da interface que invocou o método:
             Button botao = (Button)sender;
             txbTela.Text += botao.Text;
@@ -27,12 +36,17 @@ namespace Calculadora
         private void operador_Click(object sender, EventArgs e)
         {
             Button botao = (Button)sender;
-            txbTela.Text += botao.Text;
+            operation = botao.text;
+            value = txbTela.text;
+            operation_press = true;
         }
 
         private void btnIgual_Click(object sender, EventArgs e)
         {
-
+            DataTable dt = new DataTable();
+            string tela = txbTela.Text;
+            var v = dt.Compute(tela, "");
+            txbTela.Text = v.ToString();
         }
     }
 }

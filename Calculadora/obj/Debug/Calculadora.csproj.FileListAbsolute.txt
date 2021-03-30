@@ -7,3 +7,13 @@ C:\Users\wlm\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.Properti
 C:\Users\wlm\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
 C:\Users\wlm\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.exe
 C:\Users\wlm\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\Leon Freitas\Downloads\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\Leon Freitas\Downloads\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\Leon Freitas\Downloads\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\Leon Freitas\Downloads\Calculadora\Calculadora\obj\Debug\Calculadora.csprojAssemblyReference.cache
+C:\Users\Leon Freitas\Downloads\Calculadora\Calculadora\obj\Debug\Calculadora.Form1.resources
+C:\Users\Leon Freitas\Downloads\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\Leon Freitas\Downloads\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\Leon Freitas\Downloads\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Leon Freitas\Downloads\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\Leon Freitas\Downloads\Calculadora\Calculadora\obj\Debug\Calculadora.pdb

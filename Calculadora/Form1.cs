@@ -12,6 +12,8 @@ namespace Calculadora
 {
     public partial class Form1 : Form
     {
+   
+
         // Atributos / variáveis globais: 
 
         public Form1()
@@ -28,11 +30,20 @@ namespace Calculadora
         {
             Button botao = (Button)sender;
             txbTela.Text += botao.Text;
+
         }
 
         private void btnIgual_Click(object sender, EventArgs e)
         {
+            DataTable dt = new DataTable();
+            string tela = txbTela.Text;
+            var v = dt.Compute(tela, "");
+            txbTela.Text = v.ToString();
+        }
 
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txbTela.Text = "";
         }
     }
 }
